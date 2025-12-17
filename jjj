@@ -1,3 +1,10 @@
+git init
+git add .
+git commit -m "Initial Skyway VIP website"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/skyway-vip.git
+git push -u origin main
+
 import React from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
